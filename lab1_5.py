@@ -2,7 +2,7 @@ def check_multiple(number: int) -> bool:
     return number % 3 == 0 and number % 5 == 0
 
 def check_password(input_string: str) -> str:
-    secret = "password"
+    secret = "Python123"
     if input_string == secret:
         return "access granted"
     else:
